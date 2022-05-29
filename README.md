@@ -16,6 +16,8 @@ Steps to run the application:
 1. To get the list of products - http://localhost:8080/products (GET). Query string parameters as defined in problem statement can be applied.
 
 2. To add new product/products -  http://localhost:8080/addproduct (POST). Parameters accepted: data (in json format)
+       
+       eg: data={"products": [{"sku": "000001","name": "BV Lean leather ankle boots","category": "boots","price": 89000}]}
 
 
 
