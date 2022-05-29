@@ -26,3 +26,12 @@ Steps to run the application:
 Steps to run the test cases:
 
 1. Run the command "cat postInstall.sh | docker exec -i php74-container bash "
+
+
+
+
+Explanation for decisions taken:
+
+I have used php - symfony to set up the application, containerised using docker for seamless setup and machine independence. The database used is mysql.
+The reason for selecting symfony is the ease with which rest api's can be implemented.
+To add new products batch size of 200 is used in case the product list is huge (mentioned in problem statement- upto 20,0000).
