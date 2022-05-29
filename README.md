@@ -2,7 +2,7 @@
 
 Steps to set up the application:
 
-1. Clone the application using the command **git clone https://github.com/jayantpande03/mytheresa-main**
+1. Clone the application using the command ' **git clone https://github.com/jayantpande03/mytheresa-main** '
 
 2. **cd mytheresa-main**
 
