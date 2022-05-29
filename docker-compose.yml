@@ -14,7 +14,7 @@ services:
       - "9000:9000"
     volumes:
       - ./app:/var/www/project
-#    command: 'exec postinstall.sh'
+    command: 'exec postinstall.sh'
     networks:
       - mytheresa-network
 
