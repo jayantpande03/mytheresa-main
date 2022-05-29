@@ -15,6 +15,7 @@ services:
     volumes:
       - ./app:/var/www/project
 #     command: sh -c 'postinstall.sh'
+    entrypoint: ["/bin/sh", "-c", "symfony console doctrine:database:create --env=test && symfony console doctrine:migrations:migrate -n --env=test"]
     networks:
       - mytheresa-network
 
