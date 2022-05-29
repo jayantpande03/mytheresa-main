@@ -64,6 +64,9 @@ class ProductController extends AbstractController
         $batch = 200;
 
         $requestArr = $request->get('data');
+        if(empty($requestArr)){
+            return new Response('Parameter cannot be empty');
+        }
         $requestArr = json_decode($requestArr,1);
         foreach ($requestArr['products'] as $value){
             $i++;
