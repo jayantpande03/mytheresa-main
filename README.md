@@ -23,4 +23,4 @@ Steps to run the application:
 
 Steps to run the test cases:
 
-1. Run sh postInstall.sh
+1. Run the command "cat postInstall.sh | docker exec -i php74-container bash "
