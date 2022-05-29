@@ -1,0 +1,9 @@
+getproducts:
+    path: /products
+    controller: App\Controller\ProductController::getProducts
+    methods: [GET]
+addproduct:
+    path: /addproduct
+    controller: App\Controller\ProductController::addProducts
+    methods: [POST]
+
